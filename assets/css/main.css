@@ -1371,8 +1371,11 @@ input.main-search-input::placeholder {
 }
 .header-1 .header-logo {
   position: absolute;
-  top: 0;
-  left: 45px;
+  bottom: -20px;
+  left: 0px;
+}
+.header-1 .header-logo img{
+  width: 45%;
 }
 @media (max-width: 1399px) {
   .header-1 .header-logo {
@@ -1653,7 +1656,16 @@ input.main-search-input::placeholder {
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 .sticky .header-logo {
-  top: 28px;
+   bottom: -12px;
+  left: 0px;
+}
+.sticky .header-logo img{
+   width: 26% !important;
+}
+
+
+.header-1 .header-logo img{
+  width: 45%;
 }
 @media (max-width: 1399px) {
   .sticky .header-logo {
